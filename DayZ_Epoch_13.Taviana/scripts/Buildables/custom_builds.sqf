@@ -91,8 +91,8 @@ _requireplot = DZE_requireplot;
 if(_AdminCraft) then {
 	_requireplot=0;
 } else {
-	if(isNumber (missionConfigFile >> "Custom_Buildables" >> "Buildables" >> ComboBoxResult >> _classname >> "requireplot")) then {
-		_requireplot = getNumber(missionConfigFile >> "Custom_Buildables" >> "Buildables" >> ComboBoxResult >> _classname >> "requireplot");
+	if(isNumber (missionConfigFile >> "Custom_Buildables" >> "Buildables" >> ComboBoxResult >> DZE_buildItem >> "requireplot")) then {
+		_requireplot = getNumber(missionConfigFile >> "Custom_Buildables" >> "Buildables" >> ComboBoxResult >> DZE_buildItem >> "requireplot");
 	};
 };
 
