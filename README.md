@@ -106,4 +106,4 @@ seppo{at}posteo.de | No support for used mods! Send your Server-IP. I will visit
 
 ## Licences
 
-Note the respective licenses of the files from the other GitHub Repositories
+Note the respective licenses of the files from the other GitHub Repositories.
