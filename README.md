@@ -80,7 +80,7 @@ dayz_antihack = 0;
 
 ## Extra/optional: 
 
-You don`t want to use any Launcher? Then use "Start - Oripoch.bat". Set your own Arma2-Path and set your IP with server-port. Dubbleklick to start.
+You don`t want to use any launcher? Then use "Start - Oripoch.bat". Set your own Arma2-Path and set your IP with server-port. Dubbleklick to start.
 
 Serverstart with "Steamlink":
 
