@@ -1,6 +1,6 @@
 # Epoch-OriginsMod-Server-Package 
 
-## Epoch 1.0.7 & Origins 1.8.3 (Taviana 3.0)
+## Epoch 1.0.7 & Origins Mod 1.8.3 (Taviana 3.0)
 
 No Credit for me. Here, you see the list, you must send Credit to.
 
