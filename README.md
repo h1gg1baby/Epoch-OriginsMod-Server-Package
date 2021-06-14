@@ -66,6 +66,8 @@ This setting will be saved in the client "ArmA 2 Profile".
 
 4. Replace the Battleye-filters on your server with the package files.
 
+5. Copy the Bikey-Key "OriginsMod.info_by_Hades_1.8.3.bikey" into your server key folder.
+
 ## infiStar
 
 If you use infiStar then deactivate the following setting in your dayz_code\configVariables.sqf
