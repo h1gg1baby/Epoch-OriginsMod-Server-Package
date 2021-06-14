@@ -10,40 +10,40 @@ Special Credit to MigSDev5 for inspirations. [GitHub repo](https://github.com/Mi
 
 ## Used mods:
 
-DZAI 2.2.4 - AI Addon for Epoch 1.0.7 [GitHub repo](https://github.com/oiad/DZAI)
+DZAI 2.2.4 - AI Addon for Epoch 1.0.7 | [GitHub repo](https://github.com/oiad/DZAI)
 
-WICKED AI 2.2.7 [GitHub repo](https://github.com/f3cuk/WICKED-AI)
+WICKED AI 2.2.7 | [GitHub repo](https://github.com/f3cuk/WICKED-AI)
 
-ESSV3 [GitHub repo](https://github.com/AirwavesMan/ESSV3)
+ESSV3 | [GitHub repo](https://github.com/AirwavesMan/ESSV3)
 
-epoch-right-click-actions for Epoch 1.0.7+ [GitHub repo](https://github.com/AirwavesMan/epoch-right-click-actions)
+epoch-right-click-actions for Epoch 1.0.7+ | [GitHub repo](https://github.com/AirwavesMan/epoch-right-click-actions)
 
-deployAnything for Epoch 1.0.7+ [GitHub repo](https://github.com/oiad/deployAnything)
+deployAnything for Epoch 1.0.7+ | [GitHub repo](https://github.com/oiad/deployAnything)
 
-Advanced-Gem-Crafting [GitHub repo](https://github.com/Schalldampfer/Advanced-Gem-crafting)
+Advanced-Gem-Crafting | [GitHub repo](https://github.com/Schalldampfer/Advanced-Gem-crafting)
 
-OriginsBandage [GitHub repo](https://github.com/Schalldampfer/OriginsBandage)
+OriginsBandage | [GitHub repo](https://github.com/Schalldampfer/OriginsBandage)
 
-Virtual Garage for Epoch 1.0.7 [GitHub repo](https://github.com/oiad/virtualGarage)
+Virtual Garage for Epoch 1.0.7 | [GitHub repo](https://github.com/oiad/virtualGarage)
 
-Vehicle Key Changer for Epoch 1.0.7 [GitHub repo](https://github.com/oiad/vkc)
+Vehicle Key Changer for Epoch 1.0.7 | [GitHub repo](https://github.com/oiad/vkc)
 
-TakeClothes [GitHub repo](https://github.com/oiad/TakeClothes)
+TakeClothes | [GitHub repo](https://github.com/oiad/TakeClothes)
  
-Service Points for Epoch 1.0.7 [GitHub repo](https://github.com/oiad/service_points)
+Service Points for Epoch 1.0.7 | [GitHub repo](https://github.com/oiad/service_points)
 
-Epoch-Trader-Catalog [GitHub repo](https://github.com/ch0c/trader-catalogue)
+Epoch-Trader-Catalog | [GitHub repo](https://github.com/ch0c/trader-catalogue)
 
-Epoch-Recipes [GitHub repo](https://github.com/ch0c/epoch-recipes)
+Epoch-Recipes | [GitHub repo](https://github.com/ch0c/epoch-recipes)
 
-safe_zones [GitHub repo](https://github.com/BigEgg17)
+safe_zones | [GitHub repo](https://github.com/BigEgg17)
 Used form https://pastebin.com/aSsP1vjZ
 
-Bury and butcher bodies for Epoch 1.0.7 [GitHub repo](https://github.com/oiad/buryBodies)
+Bury and butcher bodies for Epoch 1.0.7 | [GitHub repo](https://github.com/oiad/buryBodies)
 
-Remote Vehicle Locking/Engine Status and kick out non group members. [GitHub repo](https://github.com/oiad/remoteVehicle)
+Remote Vehicle Locking/Engine Status and kick out non group members. | [GitHub repo](https://github.com/oiad/remoteVehicle)
 
-BTC_Logistic_Modified_Epoch_Version [GitHub repo](https://github.com/MigSDev5/BTC_Logistic_Modified_Epoch_Version)
+BTC_Logistic_Modified_Epoch_Version | [GitHub repo](https://github.com/MigSDev5/BTC_Logistic_Modified_Epoch_Version)
 forked from Sandbird/BTC_Logistic_Modified_Epoch_Version
 
 ## Known problem: Origins-Status-Menu must be hidden.
