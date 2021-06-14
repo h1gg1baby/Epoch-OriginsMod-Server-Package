@@ -46,7 +46,9 @@ Remote Vehicle Locking/Engine Status and kick out non group members. | [GitHub r
 BTC_Logistic_Modified_Epoch_Version | [GitHub repo](https://github.com/MigSDev5/BTC_Logistic_Modified_Epoch_Version)
 (forked from Sandbird/BTC_Logistic_Modified_Epoch_Version)
 
-## Known problem: Origins-Status-Menu must be hidden.
+## Known problem: 
+
+### Origins-Status-Menu must be hidden.
 
 Users, who join the server, gets a "blood.paa-Error". The error must be confirmed. Then the user can toggle with the key "F3" the Origins-Status-Menu for hiding.
 This setting will be saved in the Client "ArmA 2 Profile".
