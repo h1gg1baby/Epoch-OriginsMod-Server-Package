@@ -72,7 +72,9 @@ Set it from "1" to "0"
 
 like this:
 
+```
 dayz_antihack = 0;
+```
 
 ## Extra/optional: 
 
