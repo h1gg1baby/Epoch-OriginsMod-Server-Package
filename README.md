@@ -52,7 +52,7 @@ BTC_Logistic_Modified_Epoch_Version | [GitHub repo](https://github.com/MigSDev5/
 
 I added custom traders! Taviana-Zoo, Antonovka, Ilya, Shtangrad, Aliencamp, Sevastopol ...
 
-## Custom static events with rewards ;-)
+## (WAI) Custom static events with rewards ;-)
 
 1. Bandit Camp
 2. SectorB
