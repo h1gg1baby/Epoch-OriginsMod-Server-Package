@@ -1,0 +1,823 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"map_eu",
+		"aif_arma1buildings",
+		"mbg_african_buildings",
+		"mbg_killhouses",
+	    "ca_modules_animals",
+		"dayz_anim",
+		"dayz_code",
+		"dayz_communityassets",
+		"dayz_weapons",
+		"dayz_equip",
+		"cacharacters_pmc",
+		"ca_modules_functions",
+		"zero_buildings",
+		"dayz_epoch",
+		"glt_m300t",
+		"pook_h13",
+		"csj_gyroac",
+		"jetskiyanahuiaddon",
+		"redryder",
+		"Anzio_20",
+		"ori_submarine","ori_flying_fortress","ori_pragacopter","origins_pack_cars","ori_scraptank","ori_bigraft","ori_smallraft","ori_titanic","ori_scrapbuggy",
+		"ori_dc3","sla_weapons","taviana_castle","rh_de_cfg","ori_taviana","cadata","camisc3","CAWheeled","camisc_e","CABuildings","CAWheeled_E","CAMisc","caair","castructures_rail","osshdy","dayz",
+		"CAWheeled_E_Old_moto","cawheeled_e_v3s","cawheeled_e_volha","CAWheeled3_M1030","cawheeled_e_s1203","CAWheeled2_Ikarus","casounds","rth_small_tent"/*,"ori_data"*/	
+	};
+	addOnsAuto[]=
+	{
+		"dayz_weapons",
+		"ca_modules_functions",
+		"warfarebuildings",
+		"mbg_african_buildings",
+		"aif_arma1buildings",
+		"mbg_killhouses",
+		"ori_submarine","ori_flying_fortress","ori_pragacopter","origins_pack_cars","ori_scraptank","ori_bigraft","ori_smallraft","ori_titanic","ori_scrapbuggy",
+		"ori_dc3","sla_weapons","taviana_castle","rh_de_cfg","ori_taviana","cadata","camisc3","CAWheeled","camisc_e","CABuildings","CAWheeled_E","CAMisc","caair","castructures_rail","osshdy","dayz",
+		"CAWheeled_E_Old_moto","cawheeled_e_v3s","cawheeled_e_volha","CAWheeled3_M1030","cawheeled_e_s1203","CAWheeled2_Ikarus","casounds","rth_small_tent"/*,"ori_data"*/
+	};
+	randomSeed=11171215;
+	class Intel
+	{
+		briefingName="DayZ Epoch Taviana";
+		briefingDescription="Version 1.0.7";
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=6;
+		day=1;
+		hour=12;
+	};
+	class Groups
+	{
+		items=2;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=100;
+				#define PLRDEF position[]={126,0,158};azimut=0;side="WEST";vehicle="Survivor1_DZ";skill=0.6;init="this enableSimulation false;this allowDamage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';";player="PLAY CDG";
+				class Item0{id=0;PLRDEF};
+				class Item1
+				{
+					position[]={126,0,158};
+					azimut=0;
+					id=0;
+					side="WEST";
+					vehicle="Survivor1_DZ";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.6;
+					init="this enableSimulation false;this allowDamage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';";
+				};
+				class Item2{id=2;PLRDEF};
+				class Item3{id=3;PLRDEF};
+				class Item4{id=4;PLRDEF};
+				class Item5{id=5;PLRDEF};
+				class Item6{id=6;PLRDEF};
+				class Item7{id=7;PLRDEF};
+				class Item8{id=8;PLRDEF};
+				class Item9{id=9;PLRDEF};
+				class Item10{id=10;PLRDEF};
+				class Item11{id=11;PLRDEF};
+				class Item12{id=12;PLRDEF};
+				class Item13{id=13;PLRDEF};
+				class Item14{id=14;PLRDEF};
+				class Item15{id=15;PLRDEF};
+				class Item16{id=16;PLRDEF};
+				class Item17{id=17;PLRDEF};
+				class Item18{id=18;PLRDEF};
+				class Item19{id=19;PLRDEF};
+				class Item20{id=20;PLRDEF};
+				class Item21{id=21;PLRDEF};
+				class Item22{id=22;PLRDEF};
+				class Item23{id=23;PLRDEF};
+				class Item24{id=24;PLRDEF};
+				class Item25{id=25;PLRDEF};
+				class Item26{id=26;PLRDEF};
+				class Item27{id=27;PLRDEF};
+				class Item28{id=28;PLRDEF};
+				class Item29{id=29;PLRDEF};
+				class Item30{id=30;PLRDEF};
+				class Item31{id=31;PLRDEF};
+				class Item32{id=32;PLRDEF};
+				class Item33{id=33;PLRDEF};
+				class Item34{id=34;PLRDEF};
+				class Item35{id=35;PLRDEF};
+				class Item36{id=36;PLRDEF};
+				class Item37{id=37;PLRDEF};
+				class Item38{id=38;PLRDEF};
+				class Item39{id=39;PLRDEF};
+				class Item40{id=40;PLRDEF};
+				class Item41{id=41;PLRDEF};
+				class Item42{id=42;PLRDEF};
+				class Item43{id=43;PLRDEF};
+				class Item44{id=44;PLRDEF};
+				class Item45{id=45;PLRDEF};
+				class Item46{id=46;PLRDEF};
+				class Item47{id=47;PLRDEF};
+				class Item48{id=48;PLRDEF};
+				class Item49{id=49;PLRDEF};
+				class Item50{id=50;PLRDEF};
+				class Item51{id=51;PLRDEF};
+				class Item52{id=52;PLRDEF};
+				class Item53{id=53;PLRDEF};
+				class Item54{id=54;PLRDEF};
+				class Item55{id=55;PLRDEF};
+				class Item56{id=56;PLRDEF};
+				class Item57{id=57;PLRDEF};
+				class Item58{id=58;PLRDEF};
+				class Item59{id=59;PLRDEF};
+				class Item60{id=60;PLRDEF};
+				class Item61{id=61;PLRDEF};
+				class Item62{id=62;PLRDEF};
+				class Item63{id=63;PLRDEF};
+				class Item64{id=64;PLRDEF};
+				class Item65{id=65;PLRDEF};
+				class Item66{id=66;PLRDEF};
+				class Item67{id=67;PLRDEF};
+				class Item68{id=68;PLRDEF};
+				class Item69{id=69;PLRDEF};
+				class Item70{id=70;PLRDEF};
+				class Item71{id=71;PLRDEF};
+				class Item72{id=72;PLRDEF};
+				class Item73{id=73;PLRDEF};
+				class Item74{id=74;PLRDEF};
+				class Item75{id=75;PLRDEF};
+				class Item76{id=76;PLRDEF};
+				class Item77{id=77;PLRDEF};
+				class Item78{id=78;PLRDEF};
+				class Item79{id=79;PLRDEF};
+				class Item80{id=80;PLRDEF};
+				class Item81{id=81;PLRDEF};
+				class Item82{id=82;PLRDEF};
+				class Item83{id=83;PLRDEF};
+				class Item84{id=84;PLRDEF};
+				class Item85{id=85;PLRDEF};
+				class Item86{id=86;PLRDEF};
+				class Item87{id=87;PLRDEF};
+				class Item88{id=88;PLRDEF};
+				class Item89{id=89;PLRDEF};
+				class Item90{id=90;PLRDEF};
+				class Item91{id=91;PLRDEF};
+				class Item92{id=92;PLRDEF};
+				class Item93{id=93;PLRDEF};
+				class Item94{id=94;PLRDEF};
+				class Item95{id=95;PLRDEF};
+				class Item96{id=96;PLRDEF};
+				class Item97{id=97;PLRDEF};
+				class Item98{id=98;PLRDEF};
+				class Item99{id=99;PLRDEF};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-144,0,2320};
+					id=50;
+					side="LOGIC";
+					vehicle="FunctionsManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.6;
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=46;
+		class Item0
+		{
+			position[]={10732,0,12687};
+			name="center";
+			type="Empty";
+			a=10000;b=10000;
+		};
+		class Item1
+		{
+			position[]={125,0,158};
+			name="respawn_west";
+			type="Empty";
+		};
+		class Item2
+		{
+			position[]={17587,0,4952};
+			name="spawn0";
+			type="Empty";
+		};
+		class Item3
+		{
+			position[]={9093,0,2614};
+			name="spawn1";
+			type="Empty";
+		};
+		class Item4
+		{
+			position[]={15954,0,15847};
+			name="spawn2";
+			type="Empty";
+		};
+		class Item5
+		{
+			position[]={13560,0,19300};
+			name="spawn3";
+			type="Empty";
+		};
+		class Item6
+		{
+			position[]={17743,0,10299};
+			name="spawn4";
+			type="Empty";
+		};
+		class Item7
+		{
+			position[]={15245,0,17424};
+			name="spawn5";
+			type="Empty";
+		};
+		class Item8
+		{
+			position[]={16674,0,13930};
+			name="spawn6";
+			type="Empty";
+		};
+		class Item9
+		{
+			position[]={11361,0,6684};
+			name="spawn7";
+			type="Empty";
+		};
+		class Item10
+		{
+			position[]={12268,0,9762};
+			name="spawn8";
+			type="Empty";
+		};
+		class Item11
+		{
+			position[]={18292,0,7537};
+			name="spawn9";
+			type="Empty";
+		};
+		class Item12
+		{
+			position[]={10732,0,12687};
+			name="crashsites";
+			type="Empty";
+			a=10000;b=10000;
+		};
+		class Item13
+		{
+			position[]={10732,0,12687};
+			name="carepackages";
+			type="Empty";
+			a=10000;b=0;
+		};
+		class Item14
+		{
+			position[]={11698,0,15210};
+			name="TraderCityLyepestok";
+			text="Trader City Lyepestok";
+			type="mil_circle";
+			colorName="ColorBlack";
+		};
+		class Item15
+		{
+			position[]={15309,0,9278};
+			name="TraderCitySabina";
+			text="Trader City Sabina";
+			type="mil_circle";
+			colorName="ColorBlack";
+		};
+		class Item16
+		{
+			position[]={5538,0,8762};
+			name="TraderCityBilgrad";
+			text="Trader City Bilgrad";
+			type="mil_circle";
+			colorName="ColorBlack";
+		};
+		class Item17
+		{
+			position[]={7376,0,4296};
+			name="TraderCityBranibor";
+			text="Trader City Branibor";
+			type="mil_circle";
+			colorName="ColorBlack";
+		};
+		class Item18
+		{
+			position[]={10948,0,654};
+			name="BanditVendor";
+			text="Bandit Vendor";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item19
+		{
+			position[]={4066,0,7265};
+			name="HeroVendor";
+			text="Hero Vendor";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item20
+		{
+			position[]={16555,0,10159};
+			name="Aircraftrader1";
+			text="Aircraft Trader";
+			type="mil_triangle";
+			colorName="ColorBlack";
+		};
+		class Item21
+		{
+			position[]={6815,0,8534};
+			name="Aircraftrader2";
+			text="Aircraft Trader";
+			type="mil_triangle";
+			colorName="ColorBlack";
+		};
+		class Item22
+		{
+			position[]={17332,0,12930};
+			name="BoatTrader1";
+			text="Boat Trader";
+			type="mil_box";
+			colorName="ColorBlack";
+		};
+		class Item23
+		{
+			position[]={10570,0,16772};
+			name="BoatTrader2";
+			text="Boat Trader";
+			type="mil_box";
+			colorName="ColorBlack";
+		};
+		class Item24
+		{
+			position[]={10698,0,5983};
+			name="BoatTrader3";
+			text="Boat Trader";
+			type="mil_box";
+			colorName="ColorBlack";
+		};
+		class Item25
+		{
+			position[]={5419,0,9503};
+			name="BoatTrader4";
+			text="Boat Trader";
+			type="mil_box";
+			colorName="ColorBlack";
+		};
+		class Item26
+		{
+			position[]={13342,0,8611};
+			name="Wholesaler1";
+			text="Wholesaler";
+			type="mil_box";
+			colorName="ColorBlack";
+		};
+		class Item27
+		{
+			position[]={9859,0,7471};
+			name="Wholesaler2";
+			text="Wholesaler";
+			type="mil_box";
+			colorName="ColorBlack";
+		};
+		
+        class Item28
+		{
+			position[]={2497.1184,5,17205.029};
+			name="TraderCitySurvivalcamp";
+			text="Trader City Survival Camp";
+			type="mil_circle";
+			colorName="ColorBlack";
+		};
+		
+		class Item29
+		{
+			position[]={22551.738,5,19593.025};
+			a=800; 
+         	b=800;
+			name="banditsector";
+			text="Bandit SECTOR";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorBlack";
+		};	
+		class Item30
+		{
+			position[]={22551.738,5,19593.025};
+			name="Banditsector";
+			text="Bandit Sector";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item31
+		{
+			position[]={9680.167,5, 12545.007};
+			name="Traderantonovka";
+			text="Antonovka Tradercity";
+			type="mil_circle";
+			colorName="ColorBlack";
+		};		
+		class Item32
+		{
+			position[]={5842.2393,5,17493.076};
+			name="llya";
+			text="llya Tradercity";
+			type="mil_circle";
+			colorName="ColorBlack";
+		};
+		class Item33
+		{
+			position[]={3338.6614,6,7507.6504};
+			name="Tradershtangrad";
+			text="Shtangrad Tradercity";
+			type="mil_circle";
+			colorName="ColorBlack";
+		};
+		class Item34
+		{
+			position[]={11211.999,9,19073.885};
+			name="TraderEkaterinburg";
+			text="Ekaterinburg Tradercity";
+			type="mil_circle";
+			colorName="ColorBlack";
+		};	
+		class Item35
+		{
+			position[]={1046.8586,2,17831.639};
+			a=170; 
+         	b=170;
+			name="banditcastle1";
+			text="Bandit BASE";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorBlack";
+		};	
+		class Item36
+		{
+			position[]={1046.8586,122,17831.639};
+			name="banditcastle2";
+			text="Bandit BASE";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item37
+		{
+			position[]={18483.3,12,3805.88};
+			name="TavianaZoo";
+			text="Tradercity Taviana Zoo";
+			type="mil_circle";
+			colorName="ColorBlack";
+		};
+		class Item38
+		{
+			position[]={6723.32,15,13009.2};
+			name="BlackMarket";
+			text=" Schwarzmarkt";
+			type="mil_circle";
+			colorName="ColorBlack";
+		};
+ 		class Item39
+		{
+			position[]={7673.9224,-2.2888184e-005,7656.4575};
+			name="fuel1";
+			text=" Fuel and Repair";
+			type="mil_circle";
+			colorName="ColorGreen";
+		};       
+ 		class Item40
+		{
+			position[]={16354.734,1.9073486e-005,10168.704};
+			name="fuel2";
+			text=" Fuel and Repair";
+			type="mil_circle";
+			colorName="ColorGreen";
+		};       
+		class Item41
+		{
+			position[]={10468.33,-3.8146973e-005,17606.121};
+			name="fuel3";
+			text=" Fuel and Repair";
+			type="mil_circle";
+			colorName="ColorGreen";
+		};        
+		class Item42
+		{
+			position[]={7819.1035,4.5776367e-005,9059.5586};
+			name="fuel4";
+			text=" Fuel and Repair";
+			type="mil_circle";
+			colorName="ColorGreen";
+		};        
+		class Item43
+		{
+			position[]={5526.1299,-1.7166138e-005,9917.1816};
+			name="fuel5";
+			text=" Fuel and Repair";
+			type="mil_circle";
+			colorName="ColorGreen";
+		};        
+		class Item44
+		{
+			position[]={11798.813,3.0517578e-005,14919.877};
+			name="fuel6";
+			text=" Fuel and Repair";
+			type="mil_circle";
+			colorName="ColorGreen";
+		};  
+		class Item45
+		{
+			position[]={15596,0,16387};
+			name="TraderCitySevastopol";
+			text="Trader City Sevastopol";
+			type="mil_circle";
+			colorName="ColorBlack";
+		};
+	};
+	class Sensors
+	{
+		items=22;
+		#define TRGDEF a=100;b=100;activationBy="WEST";repeating=1;interruptable=1;age="UNKNOWN";class Effects{};
+		class Item0
+		{
+			position[]={15309,0,9278};
+			TRGDEF
+			name="zonesabina";
+			expCond="(player distance zonesabina) < 100;";
+			expActiv="[""Trader City Sabina"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Trader City Sabina"",true,""leave""] call player_traderCity;";
+		};
+		class Item1
+		{
+			position[]={11698,0,15210};
+			TRGDEF
+			name="zonelyep";
+			expCond="(player distance zonelyep) < 100;";
+			expActiv="[""Trader City Lyepestok"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Trader City Lyepestok"",true,""leave""] call player_traderCity;";
+		};
+		class Item2
+		{
+			position[]={5538,0,8762};
+			TRGDEF
+			name="zonebilgrad";
+			expCond="(player distance zonebilgrad) < 100;";
+			expActiv="[""Trader City Bilgrad"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Trader City Bilgrad"",true,""leave""] call player_traderCity;";
+		};
+		class Item3
+		{
+			position[]={7376,0,4296};
+			TRGDEF
+			name="zonebranibor";
+			expCond="(player distance zonebranibor) < 100;";
+			expActiv="[""Trader City Branibor"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Trader City Branibor"",true,""leave""] call player_traderCity;";
+		};
+		class Item4
+		{
+			position[]={4066,0,7265};
+			TRGDEF
+			name="zonehero";
+			expCond="(player distance zonehero) < 100;";
+			expActiv="[""Hero Vendor"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Hero Vendor"",true,""leave""] call player_traderCity;";
+		};	
+		class Item5
+		{
+			position[]={10948,0,654};
+			TRGDEF
+			name="zonebandit";
+			expCond="(player distance zonebandit) < 100;";
+			expActiv="[""Bandit Vendor"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Bandit Vendor"",true,""leave""] call player_traderCity;";
+		};	
+		class Item6
+		{
+			position[]={16555,0,10159};
+			TRGDEF
+			name="zoneaircraft1";
+			expCond="(player distance zoneaircraft1) < 100;";
+			expActiv="[""Aircraft Trader"",false,""enter""] call player_traderCity;";
+			expDesactiv="[""Aircraft Trader"",false,""leave""] call player_traderCity;";
+		};
+		class Item7
+		{
+			position[]={6815,0,8534};
+			TRGDEF
+			name="zoneaircraft2";
+			expCond="(player distance zoneaircraft2) < 100;";
+			expActiv="[""Aircraft Trader"",false,""enter""] call player_traderCity;";
+			expDesactiv="[""Aircraft Trader"",false,""leave""] call player_traderCity;";
+		};	
+		class Item8
+		{
+			position[]={17332,0,12930};
+			TRGDEF
+			name="zoneboat1";
+			expCond="(player distance zoneboat1) < 100;";
+			expActiv="[""Boat Trader"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Boat Trader"",true,""leave""] call player_traderCity;";
+		};		
+		class Item9
+		{
+			position[]={10570,0,16772};
+			TRGDEF
+			name="zoneboat2";
+			expCond="(player distance zoneboat2) < 100;";
+			expActiv="[""Boat Trader"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Boat Trader"",true,""leave""] call player_traderCity;";
+		};	
+		class Item10
+		{
+			position[]={10698,0,5983};
+			TRGDEF
+			name="zoneboat3";
+			expCond="(player distance zoneboat3) < 100;";
+			expActiv="[""Boat Trader"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Boat Trader"",true,""leave""] call player_traderCity;";
+		};	
+		class Item11
+		{
+			position[]={5419,0,9503};
+			TRGDEF
+			name="zoneboat4";
+			expCond="(player distance zoneboat4) < 100;";
+			expActiv="[""Boat Trader"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Boat Trader"",true,""leave""] call player_traderCity;";
+		};		
+		class Item12
+		{
+			position[]={13342,0,8611};
+			TRGDEF
+			name="zonewholesale1";
+			expCond="(player distance zonewholesale1) < 100;";
+			expActiv="[""Wholesaler"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Wholesaler"",true,""leave""] call player_traderCity;";
+		};	
+		class Item13
+		{
+			position[]={9859,0,7471};
+			TRGDEF
+			name="zonewholesale2";
+			expCond="(player distance zonewholesale2) < 100;";
+			expActiv="[""Wholesaler"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Wholesaler"",true,""leave""] call player_traderCity;";
+		};
+
+		class Item14
+		{
+			position[]={2497.1184,1.9089784,17205.029}; 
+			TRGDEF
+			name="zonesurvival";
+			expCond="(player distance zonesurvival) < 60;";
+			expActiv="[""trader city Surviver Camp"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""trader city Surviver Camp"",true,""leave""] call player_traderCity;";
+		};
+		class Item15
+		{
+			position[]={11211.999,0, 19073.885}; 
+			TRGDEF
+			name="traderekaterinburg";
+			expCond="(player distance traderekaterinburg) < 60;";
+			expActiv="[""Ekaterinburg Tradercity"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Ekaterinburg Tradercity"",true,""leave""] call player_traderCity;";
+		};
+
+		class Item16
+		{
+			position[]={3338.6614,0, 7507.6504}; 
+			TRGDEF
+			name="tradershtangrad";
+			expCond="(player distance tradershtangrad) < 60;";
+			expActiv="[""Shtangrad Tradercity"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Shtangrad Tradercity"",true,""leave""] call player_traderCity;";
+		};
+		class Item17
+		{
+			position[]={5842.2393, 0,17493.076}; 
+			TRGDEF
+			name="ilya";
+			expCond="(player distance ilya) < 60;";
+			expActiv="[""llya Tradercity"",true,""enter""] spawn player_traderCity;";
+			expDesactiv="[""llya Tradercity"",true,""leave""] call player_traderCity;";
+		};		
+		class Item18
+		{
+			position[]={18481, -0.001,3786};
+			TRGDEF
+			name="zoneTavianazoo";
+			expCond="(player distance zoneTavianazoo) < 70;";
+			expActiv="[""Tradercity Taviana Zoo"",true,""enter""] spawn player_traderCity;";
+			expDesactiv="[""Tradercity Taviana Zoo"",true,""leave""] call player_traderCity;";
+		};
+		class Item19
+		{
+			position[]={6734, -0.001,13022};
+			TRGDEF
+			name="zoneSchwarzmarkt";
+			expCond="(player distance zoneSchwarzmarkt) < 50;";
+			expActiv="[""Schwarzmarkt"",true,""enter""] spawn player_traderCity;";
+			expDesactiv="[""Schwarzmarkt"",true,""leave""] call player_traderCity;";
+		};
+		class Item20
+		{
+			position[]={15596,0,16387};
+			TRGDEF
+			name="zonesevasto";
+			expCond="(player distance zonesevasto) < 100;";
+			expActiv="[""Trader City Sevastopol"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Trader City Sevastopol"",true,""leave""] call player_traderCity;";
+		};
+		class Item21
+		{
+			position[]={9680,0,12545};
+			TRGDEF
+			name="traderantonovka";
+			expCond="(player distance zonesevasto) < 100;";
+			expActiv="[""Antonovka Tradercity"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Antonovka Tradercity"",true,""leave""] call player_traderCity;";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"ori_taviana"
+	};
+	addOnsAuto[]=
+	{
+		"ori_taviana"
+	};
+	randomSeed=6913869;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"ori_taviana"
+	};
+	addOnsAuto[]=
+	{
+		"ori_taviana"
+	};
+	randomSeed=4081731;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"ori_taviana"
+	};
+	addOnsAuto[]=
+	{
+		"ori_taviana"
+	};
+	randomSeed=4975929;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};

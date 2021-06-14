@@ -1,0 +1,51 @@
+respawn = "BASE";
+respawnDelay = 0;
+respawnDialog = 0;
+onLoadMission = "DayZ Epoch Taviana";
+OnLoadIntro = "Welcome to Taviana";
+OnLoadIntroTime = 0;
+OnLoadMissionTime = 0;
+disabledAI = 1;
+disableChannels[] = {0,2,6};
+enableItemsDropping = 0;
+onPauseScript = "";
+briefing = 0;
+debriefing = 0;
+
+titleParam1 = "AutoLogin:";
+valuesParam1[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 31};
+defValueParam1 = 10; //auto login time limit in seconds, set value to 31 to disable auto login
+textsParam1[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, "Disabled"};
+
+loadScreen = "\z\addons\dayz_code\gui\loadingscreen.paa";
+
+class Header
+{
+	gameType = COOP;            //DM, Team, Coop, ...
+	minPlayers = 1;             //min # of players the mission supports
+	maxPlayers = 100;            //Max # of players the mission supports
+};
+
+aiKills = 1;
+diagRadio = 1;
+diagHit = 1;
+
+#include "dayz_code\gui\description.hpp"
+#include "dayz_code\Configs\CfgLoot\CfgLoot.hpp"
+//#include "\z\addons\dayz_code\Configs\CfgServerTrader\CfgServerTrader.hpp" // Normal traders
+#include "dayz_code\Configs\CfgServerTraderZSC\CfgServerTrader.hpp" // Single currency traders
+#include "spawn\dialogs.hpp"
+#include "scripts\virtualGarage\virtualGarage.hpp"
+#include "scripts\vkc\vkc.hpp"
+#include "scripts\catalogue\chx_defines.hpp" 
+#include "scripts\catalogue\chx_catalog.hpp"
+#include "scripts\recipes\chx_buildings.hpp"
+
+//Advanced Alchemical Crafting
+#include "scripts\Buildables\MT_Defines.hpp"
+#include "scripts\Buildables\Crafting_Defines.hpp"
+#include "scripts\Buildables\Crafting_Dialogs.hpp"
+//zCraft
+#include "scripts\Buildables\zCraft\description.hpp"
+#include "scripts\Buildables\zCraft\zCraft.hpp"
+#include "scripts\remoteVehicle\remoteVehicle.hpp"
