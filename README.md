@@ -48,6 +48,15 @@ Remote Vehicle Locking/Engine Status and kick out non group members. | [GitHub r
 BTC_Logistic_Modified_Epoch_Version | [GitHub repo](https://github.com/MigSDev5/BTC_Logistic_Modified_Epoch_Version)
 (forked from Sandbird/BTC_Logistic_Modified_Epoch_Version)
 
+## Custom Tradercities
+
+I added custom traders! Taviana-Zoo, Antonovka, Ilya, Shtangrad, Aliencamp, Sevastopol ...
+
+## Custom static events with rewards ;-)
+
+1. Bandit Camp
+2. SectorB
+
 ## Known problem: 
 
 ### Origins-Status-Menu must be hidden.
