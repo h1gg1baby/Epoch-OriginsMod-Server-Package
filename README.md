@@ -68,6 +68,8 @@ This setting will be saved in the client "ArmA 2 Profile".
 
 5. Copy the Bikey-Key "OriginsMod.info_by_Hades_1.8.3.bikey" into your server key folder.
 
+6. Mod serversettings for start order: ca, @originsmod, @dayz_epoch, @dayz_epoch_server
+
 ## infiStar
 
 If you use infiStar then deactivate the following setting in your dayz_code\configVariables.sqf
