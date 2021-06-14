@@ -44,7 +44,7 @@ Bury and butcher bodies for Epoch 1.0.7 | [GitHub repo](https://github.com/oiad/
 Remote Vehicle Locking/Engine Status and kick out non group members. | [GitHub repo](https://github.com/oiad/remoteVehicle)
 
 BTC_Logistic_Modified_Epoch_Version | [GitHub repo](https://github.com/MigSDev5/BTC_Logistic_Modified_Epoch_Version)
-forked from Sandbird/BTC_Logistic_Modified_Epoch_Version
+(forked from Sandbird/BTC_Logistic_Modified_Epoch_Version)
 
 ## Known problem: Origins-Status-Menu must be hidden.
 
