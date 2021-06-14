@@ -8,6 +8,8 @@ Special Credit to MigSDev5 for inspirations. [GitHub repo](https://github.com/Mi
 
 - Tested with infiStar Admin Panel.
 
+Have FUN!
+
 ## Used mods:
 
 DZAI 2.2.4 - AI Addon for Epoch 1.0.7 | [GitHub repo](https://github.com/oiad/DZAI)
