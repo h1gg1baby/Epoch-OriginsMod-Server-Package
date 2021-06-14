@@ -1,81 +1,57 @@
-Epoch-OriginsMod-Server-Package 
+# Epoch-OriginsMod-Server-Package 
 
-Epoch 1.0.7 & Origins 1.8.3 (Taviana 3.0)
+## Epoch 1.0.7 & Origins 1.8.3 (Taviana 3.0)
 
-######
+No Credit for me. Here, you see the list, you must send Credit to.
 
-No Credit for me. Here you see the list, you must send Credit to.
+Special Credits to MigSDev5 for inspirations. [GitHub repo](https://github.com/MigSDev5/Epoch_origins_pack)
 
-Special Credits to MigSDev5 for inspirations.
-https://github.com/MigSDev5/Epoch_origins_pack
+- Tested with infiStar Admin Panel.
 
-Tested with infiStar Admin Panel.
+## Used mods:
 
-Used mods:
+DZAI 2.2.4 - AI Addon for Epoch 1.0.7 [GitHub repo](https://github.com/oiad/DZAI)
 
-DZAI 2.2.4 - AI Addon for Epoch 1.0.7
-https://github.com/oiad/DZAI
+WICKED AI 2.2.7 [GitHub repo](https://github.com/f3cuk/WICKED-AI)
 
-WICKED AI 2.2.7
-https://github.com/f3cuk/WICKED-AI
+ESSV3 [GitHub repo](https://github.com/AirwavesMan/ESSV3)
 
-ESSV3
-https://github.com/AirwavesMan/ESSV3
+epoch-right-click-actions for Epoch 1.0.7+ [GitHub repo](https://github.com/AirwavesMan/epoch-right-click-actions)
 
-epoch-right-click-actions for Epoch 1.0.7+
-https://github.com/AirwavesMan/epoch-right-click-actions
+deployAnything for Epoch 1.0.7+ [GitHub repo](https://github.com/oiad/deployAnything)
 
-deployAnything for Epoch 1.0.7+
-https://github.com/oiad/deployAnything
+Advanced-Gem-Crafting [GitHub repo](https://github.com/Schalldampfer/Advanced-Gem-crafting)
 
-Advanced-Gem-Crafting
-https://github.com/Schalldampfer/Advanced-Gem-crafting
+OriginsBandage [GitHub repo](https://github.com/Schalldampfer/OriginsBandage)
 
-OriginsBandage
-https://github.com/Schalldampfer/OriginsBandage
+Virtual Garage for Epoch 1.0.7 [GitHub repo](https://github.com/oiad/virtualGarage)
 
-Virtual Garage for Epoch 1.0.7
-https://github.com/oiad/virtualGarage
+Vehicle Key Changer for Epoch 1.0.7 [GitHub repo](https://github.com/oiad/vkc)
 
-Vehicle Key Changer for Epoch 1.0.7
-https://github.com/oiad/vkc
+TakeClothes [GitHub repo](https://github.com/oiad/TakeClothes)
+ 
+Service Points for Epoch 1.0.7 [GitHub repo](https://github.com/oiad/service_points)
 
-TakeClothes
-https://github.com/oiad/TakeClothes
+Epoch-Trader-Catalog [GitHub repo](https://github.com/ch0c/trader-catalogue)
 
-Service Points for Epoch 1.0.7
-https://github.com/oiad/service_points
+Epoch-Recipes [GitHub repo](https://github.com/ch0c/epoch-recipes)
 
-Epoch-Trader-Catalog
-https://github.com/ch0c/trader-catalogue
-
-Epoch-Recipes
-https://github.com/ch0c/epoch-recipes
-
-safe_zones
-https://github.com/BigEgg17
+safe_zones [GitHub repo](https://github.com/BigEgg17)
 Used form https://pastebin.com/aSsP1vjZ
 
-Bury and butcher bodies for Epoch 1.0.7
-https://github.com/oiad/buryBodies
+Bury and butcher bodies for Epoch 1.0.7 [GitHub repo](https://github.com/oiad/buryBodies)
 
-Remote Vehicle Locking/Engine Status and kick out non group members.
-https://github.com/oiad/remoteVehicle
+Remote Vehicle Locking/Engine Status and kick out non group members. [GitHub repo](https://github.com/oiad/remoteVehicle)
 
-BTC_Logistic_Modified_Epoch_Version
-https://github.com/MigSDev5/BTC_Logistic_Modified_Epoch_Version
+BTC_Logistic_Modified_Epoch_Version [GitHub repo](https://github.com/MigSDev5/BTC_Logistic_Modified_Epoch_Version)
 forked from Sandbird/BTC_Logistic_Modified_Epoch_Version
 
-#######
-
-Known problem: Origins-Status-Menu must be hidden.
+## Known problem: Origins-Status-Menu must be hidden.
 
 Users, who join the server, gets a "blood.paa-Error". The error must be confirmed. Then the user can toggle with the key "F3" the Origins-Status-Menu for hiding.
 This setting will be saved in the Client "ArmA 2 Profile".
 
-#######
-
-Install:
+## Install:
 
 1. Copy the DayZ_Epoch_13.Taviana folder (or *.pbo / use "PBO tool" for packing) to your Arma2 OA\MPMissions folder
 
@@ -88,9 +64,7 @@ Install:
 
 4. Replace the Battleye-filters on your server with the package files.
 
-#######
-
-infiStar
+## infiStar
 
 If you use infiStar then deactivate the following setting in your dayz_code\configVariables.sqf
 
@@ -100,23 +74,23 @@ like this:
 
 dayz_antihack = 0;
 
-####### 
+## Extra/optional: 
 
-Extra/optional: You don`t want to use any Launcher? Then use "Start - Oripoch.bat". Set your own Arma2-Path and set your IP with server-port. Dubbleklick to start.
+You don`t want to use any Launcher? Then use "Start - Oripoch.bat". Set your own Arma2-Path and set your IP with server-port. Dubbleklick to start.
 
 Serverstart with "Steamlink":
 
+```
 steam://run/33930//-connect=99.999.999.99%20-port=2302%20-mod=EXPANSION;@OriginsMod;@DayZ_Epoch;%20-nosplash%20-world=empty%20-nopause
+```
 
 with password use:
 
+```
 steam://run/33930//-connect=99.999.999.99%20-port=2302%20-PASSWORD=password%20-mod=EXPANSION;@OriginsMod;@DayZ_Epoch;%20-nosplash%20-world=empty%20-nopause
+```
 
-#######
+## Contact
 
-Thx to all 
-
-Contact: seppo[at]posteo.de
+seppo{at}posteo.de
 No Support for used mods! Send your Server-IP. I will visit you! ;-)
-
-
