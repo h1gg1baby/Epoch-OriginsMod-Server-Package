@@ -38,8 +38,7 @@ Epoch-Trader-Catalog | [GitHub repo](https://github.com/ch0c/trader-catalogue)
 
 Epoch-Recipes | [GitHub repo](https://github.com/ch0c/epoch-recipes)
 
-safe_zones | [GitHub repo](https://github.com/BigEgg17)
-Used form https://pastebin.com/aSsP1vjZ
+safe_zones | [GitHub repo](https://github.com/BigEgg17) | Used edited Version from https://pastebin.com/aSsP1vjZ
 
 Bury and butcher bodies for Epoch 1.0.7 | [GitHub repo](https://github.com/oiad/buryBodies)
 
