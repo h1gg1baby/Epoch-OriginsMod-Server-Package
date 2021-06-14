@@ -4,7 +4,7 @@
 
 No Credit for me. Here, you see the list, you must send Credit to.
 
-Special Credits to MigSDev5 for inspirations. [GitHub repo](https://github.com/MigSDev5/Epoch_origins_pack)
+Special Credit to MigSDev5 for inspirations. [GitHub repo](https://github.com/MigSDev5/Epoch_origins_pack)
 
 - Tested with infiStar Admin Panel.
 
