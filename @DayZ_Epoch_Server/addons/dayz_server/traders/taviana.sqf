@@ -164,11 +164,10 @@ if (Z_singleCurrency && Z_globalBanking && Z_globalBankingTraders) then {
 		["Functionary1_EP1",[15370.618,16458.928,0.056785069],-188.12981],
 		["Functionary1_EP1",[10167.308,19075.475,0.26185527],-116.41749],
 		["Functionary1_EP1",[2492.52,17190.1,0],353.871],
-		["Functionary1_EP1",[5850.46,1749.3,0],21.0334],
+		["Functionary1_EP1",[5849.71,17494.3,0],31.225],
 		["Functionary1_EP1",[3335.72,7492.3,0],284.32],
 		["Functionary1_EP1",[18471.8,3781.21,0],23.2777],
 		["Functionary1_EP1",[9654.21,12559.9,0],47.3297],
-		["Functionary1_EP1",[11193.8,19078.3,0],181.079],
-		["Functionary1_EP1",[11246.8,19077.6,0],177.434]
+		["Functionary1_EP1",[11193.8,19078.3,0],181.079]
 	] call server_spawnTraders;
 };

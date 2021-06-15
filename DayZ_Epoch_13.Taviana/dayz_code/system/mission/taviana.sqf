@@ -725,5 +725,9 @@
 	// Helifix Trader Antonovka
 	
 	["HeliHEmpty",[9672.47,12553.7,0],0],
-	["HeliHCivil",[9672.47,12553.7,0],0]
+	["HeliHCivil",[9672.47,12553.7,0],0],
+	
+	// Helifix Trader Ekat
+	["HeliHEmpty",[11246.8,19077.6,0],0],
+	["HeliHCivil",[11246.8,19077.6,0],0]
 ],true,false,true] call fnc_spawnObjects;

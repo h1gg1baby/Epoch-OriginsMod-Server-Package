@@ -402,15 +402,6 @@ if (true) then
   _this setPos [11208.979, 19078.855, 4.7683716e-005];
 };
 
-_vehicle_125 = objNull;
-if (true) then
-{
-  _this = createVehicle ["HeliHEmpty", [11228.679, 19074.07, -8.1062317e-005], [], 0, "CAN_COLLIDE"];
-  _vehicle_125 = _this;
-  _this setDir -90.289955;
-  _this setPos [11228.679, 19074.07, -8.1062317e-005];
-};
-
 _vehicle_126 = objNull;
 if (true) then
 {
