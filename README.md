@@ -102,7 +102,7 @@ Serverstart with "Steamlink":
 steam://run/33930//-connect=99.999.999.99%20-port=2302%20-mod=EXPANSION;@OriginsMod;@DayZ_Epoch;%20-nosplash%20-world=empty%20-nopause
 ```
 
-with password use:
+with password usage:
 
 ```
 steam://run/33930//-connect=99.999.999.99%20-port=2302%20-PASSWORD=password%20-mod=EXPANSION;@OriginsMod;@DayZ_Epoch;%20-nosplash%20-world=empty%20-nopause
