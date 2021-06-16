@@ -49,7 +49,7 @@ BTC_Logistic_Modified_Epoch_Version | [GitHub repo](https://github.com/MigSDev5/
 
 ## Custom Tradercities
 
-I added custom traders! Taviana-Zoo, Antonovka, Ilya, Shtangrad, Aliencamp, Sevastopol ...
+I added custom traders! Taviana-Zoo, Antonovka, Ilya, Shtangrad, Aliencamp, Sevastopol (Thx to Gorgy for Map Addons)
 
 ## (WAI) Custom static events with rewards ;-)
 

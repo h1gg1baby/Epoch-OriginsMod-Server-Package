@@ -6,7 +6,6 @@ call compile preprocessFileLineNumbers "\z\addons\dayz_server\maps\traderllya.sq
 call compile preprocessFileLineNumbers "\z\addons\dayz_server\maps\truckdealer.sqf";
 call compile preprocessFileLineNumbers "\z\addons\dayz_server\maps\servicepoints.sqf";
 call compile preprocessFileLineNumbers "\z\addons\dayz_server\maps\banks.sqf";
-call compile preprocessFileLineNumbers "\z\addons\dayz_server\maps\milbasekameni.sqf";
 #include "\z\addons\dayz_server\compile\server_toggle_debug.hpp"
 waitUntil {!isNil "bis_fnc_init"};
 

@@ -53,7 +53,7 @@ if (isServer) then {
 	call compile preprocessFileLineNumbers "\z\addons\dayz_server\system\dynamic_vehicle.sqf";
 	call compile preprocessFileLineNumbers "\z\addons\dayz_server\system\server_monitor.sqf";
 	execVM "\z\addons\dayz_server\traders\taviana.sqf"; //Add trader agents
-
+	call compile preprocessFileLineNumbers "maps\milbasekameni.sqf";
 	//Get the server to setup what waterholes are going to be infected and then broadcast to everyone.
 	if (dayz_infectiousWaterholes) then {execVM "\z\addons\dayz_code\system\mission\chernarus\infectiousWaterholes\init.sqf";};
 	
