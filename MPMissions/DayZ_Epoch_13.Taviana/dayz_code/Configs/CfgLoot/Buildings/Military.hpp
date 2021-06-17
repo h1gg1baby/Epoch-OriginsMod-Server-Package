@@ -669,7 +669,7 @@ lootPos[] = {
 {-2.36133,-3.3252,-1.02814},
 {2.19922,-2.625,-0.848144}};
 };
-class land_tav_barrack2: MilitarySpecial
+class land_tav_barrack2: Military
 {
 lootPos[] = {
 {1.51538,-0.966797,-0.693401},
