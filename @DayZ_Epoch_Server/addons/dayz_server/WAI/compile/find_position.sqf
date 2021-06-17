@@ -44,6 +44,8 @@ while {!_validspot} do {
 		} count _markers;
 	};
 	
+/*	
+	
 	if (_validspot && {wai_avoid_safezones != 0}) then {
 		{
 			_szPos = _x select 0;
@@ -54,6 +56,8 @@ while {!_validspot} do {
 			};
 		} forEach DZE_SafeZonePosArray;
 	};
+RPT ERROR - temporarily deactivated	
+*/
 
 	if (_validspot && {wai_avoid_water != 0}) then {
 		if ([_position,wai_avoid_water] call isNearWater) then {
