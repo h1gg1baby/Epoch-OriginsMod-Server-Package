@@ -648,7 +648,7 @@ lootPos[] = {
 {-2.43555,1.04395,-0.680344},
 {-3.12524,-3.8916,-0.680344}};
 };
-class land_kamaz: MilitarySpecial
+class land_kamaz: Military
 {
 lootPos[] = {
 {1.62695,-3.93604,-1.75773},
