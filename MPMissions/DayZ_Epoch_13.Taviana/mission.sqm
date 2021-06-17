@@ -196,7 +196,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=46;
+		items=47;
 		class Item0
 		{
 			position[]={10732,0,12687};
@@ -547,6 +547,14 @@ class Mission
 			text="Trader City Sevastopol";
 			type="mil_circle";
 			colorName="ColorBlack";
+		};
+		class Item46
+		{
+			position[]={8469.99,0,20027.8};
+			name="Doctor";
+			text="Doctor";
+			type="mil_dot";
+			colorName="ColorGreen";
 		};
 	};
 	class Sensors
