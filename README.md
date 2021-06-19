@@ -1,4 +1,4 @@
-# Epoch-OriginsMod-Server-Package 
+# Epoch-OriginsMod-Server-Package - Version 1.0
 
 ## Epoch 1.0.7 & Origins Mod 1.8.3 (Taviana 3.0)
 
