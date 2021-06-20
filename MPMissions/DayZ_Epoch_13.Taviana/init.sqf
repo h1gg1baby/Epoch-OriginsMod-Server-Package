@@ -28,7 +28,6 @@ if (!isDedicated) then {
 // Settings for both server and client
 dayz_REsec = 1; // DayZ RE Security / 1 = enabled // 0 = disabled
 DZE_PlayerZed = true; // Enable spawning as a player zombie when players die with infected status
-DZE_SafeZonePosArray = [[[15309,9278,0],100],[[11698,15210,0],100],[[5538,8762,0],100],[[7376,4296,0],100],[[10948,654,0],100],[[4066,7265,0],100],[[16555,10159,0],100],[[6815,8534,0],100]]; // Format is [[[3D POS],RADIUS],[[3D POS],RADIUS]]; Stops loot and zed spawn, salvage and players being killed if their vehicle is destroyed in these zones.
 // EPOCH CONFIG VARIABLES END //
 
 enableRadio false;

@@ -86,8 +86,9 @@ if (!isDedicated) then {
 	// SafeZone
 	DZE_SafeZoneNoBuildItems = []; // Array of object class names not allowed to be built near the zones in DZE_SafeZonePosArray (see mission\init.sqf). Can be nested arrays for custom distances. i.e ["VaultStorageLocked","LockboxStorageLocked",["Plastic_Pole_EP1_DZ",1300]] etc.
 	DZE_SafeZoneNoBuildDistance = 150; // Distance from zones in DZE_SafeZonePosArray (see mission\init.sqf) to disallow building near.
-	DZE_DeathScreen = true; // True=Use Epoch death screen (Trade city obituaries have been amended) False=Use DayZ death screen (You are dead)
-	DZE_SafeZonePosArray = [[[15309,9278,0],100],[[11698,15210,0],100],[[5538,8762,0],100],[[7376,4296,0],100],[[4066,7265,0],100],[[16555,10159,0],100],[[6815,8534,0],100],[[11212,19074,0],60],[[2497,17205,0],60],[[3339,7508,0],60],[[5842,17493,0],60],[[18481,3786,0],70],[[15596,16387,0],100],[[9680,12545,0],100]]; // Taviana SafeZonePosArray. For other maps configure your own SafeZonePos.
+	DZE_DeathScreen = false; // True=Use Epoch death screen (Trade city obituaries have been amended) False=Use DayZ death screen (You are dead)
+	DZE_SafeZonePosArray = [[[11698,15210,0],100],[[15309,9278,0],150],[[5538,8762,0],100],[[7376,4296,0],100],[[10948,654,0],100],[[15587,16394,0],100],[[16555,10159,0],100],[[6815,8534,0],100],[[4066,7265,0],100],[[17497,7159,0],100],[[17332,12930,0],100],[[10570,16772,0],100],[[10698,5983,0],100],[[5419,9503,0],100],[[13342,8611,0],100],[[9859,7471,0],100],[[4066,7265,0],100],[[11212,19074,0],60],[[2497,17205,0],60],[[3339,7508,0],60],[[5842,17493,0],60],[[18481,3786,0],70],[[9680,12545,0],100]];
+	//DZE_SafeZonePosArray = [[[15309,9278,0],100],[[11698,15210,0],100],[[5538,8762,0],100],[[7376,4296,0],100],[[4066,7265,0],100],[[16555,10159,0],100],[[6815,8534,0],100],[[11212,19074,0],60],[[2497,17205,0],60],[[3339,7508,0],60],[[5842,17493,0],60],[[18481,3786,0],70],[[15596,16387,0],100],[[9680,12545,0],100]]; // Taviana SafeZonePosArray. For other maps configure your own SafeZonePos.
 
 	// HALO Jump
 	DZE_HaloAltitudeMeter = false; // Display altitude and speed on screen while in halo jump.
