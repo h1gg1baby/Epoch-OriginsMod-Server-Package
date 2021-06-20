@@ -1,12 +1,35 @@
 // For DayZ Epoch
 // EPOCH CONFIG VARIABLES START //
-#include "\z\addons\dayz_code\configVariables.sqf" // Don't remove this line
 #include "dayz_code\configVariables.sqf" // Don't remove this line
-// Uncomment the lines below to change the default loadout
-//DefaultMagazines = ["HandRoadFlare","ItemBandage","ItemPainkiller","8Rnd_9x18_Makarov","8Rnd_9x18_Makarov"];
-//DefaultWeapons = ["Makarov_DZ","ItemFlashlight"];
-//DefaultBackpack = "DZ_Patrol_Pack_EP1";
-//DefaultBackpackItems = []; // Can include both weapons and magazines i.e. ["PDW_DZ","30Rnd_9x19_UZI"];
+
+// Server only settings
+if (isServer) then {
+	dayZ_instance = 11; //Instance ID of this server
+	dayz_POIs = false; //Adds Point of Interest map additions (negatively impacts FPS)
+	MaxDynamicDebris = 700; // Max number of random road blocks to spawn around the map
+	MaxVehicleLimit = 400; // Max number of random vehicles to spawn around the map
+	spawnArea = 2500; // Distance around markers to find a safe spawn position
+	spawnShoremode = 1; // Random spawn locations  1 = on shores, 0 = inland
+	EpochEvents = [ //[year,month,day of month, minutes,name of file - .sqf] If minutes is set to -1, the event will run once immediately after server start.
+		//["any","any","any","any",-1,"Infected_Camps"], // (negatively impacts FPS)
+		["any","any","any","any",-1,"Care_Packages"],
+		["any","any","any","any",-1,"CrashSites"]
+	];
+};
+
+// Client only settings
+if (!isDedicated) then {
+	dayz_antihack = 0; // DayZ Antihack / 1 = enabled // 0 = disabled
+	dayZ_serverName = ""; //Shown to all players in the bottom left of the screen (country code + server number)
+	dayz_enableRules = true; //Enables a nice little news/rules feed on player login (make sure to keep the lists quick).
+	DZE_R3F_WEIGHT = true; // Enable R3F weight. Players carrying too much will be overburdened and forced to move slowly.
+};
+
+// Settings for both server and client
+dayz_REsec = 1; // DayZ RE Security / 1 = enabled // 0 = disabled
+DZE_PlayerZed = true; // Enable spawning as a player zombie when players die with infected status
+DZE_SafeZonePosArray = [[[15309,9278,0],100],[[11698,15210,0],100],[[5538,8762,0],100],[[7376,4296,0],100],[[10948,654,0],100],[[4066,7265,0],100],[[16555,10159,0],100],[[6815,8534,0],100]]; // Format is [[[3D POS],RADIUS],[[3D POS],RADIUS]]; Stops loot and zed spawn, salvage and players being killed if their vehicle is destroyed in these zones.
+// EPOCH CONFIG VARIABLES END //
 
 enableRadio false;
 enableSentences false;
