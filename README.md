@@ -74,11 +74,13 @@ This setting will be saved in the client "ArmA 2 Profile".
 3. The file "HiveExt.dll" is custom! For using "Virtual Garage", you must change it. So, replace the offical HiveExt.dll! You can find it in my package.
 	Attention: Look in the area "mySQL database setup fresh install" at https://github.com/oiad/virtualGarage for more Install instructions. 
 
-4. Replace the Battleye-filters on your server with the package files.
+4. Import the SQL\virtualGarage.sql into your database
 
-5. Copy the Bikey-Key "OriginsMod.info_by_Hades_1.8.3.bikey" into your server key folder.
+5. Replace the Battleye-filters on your server with the package files.
 
-6. Mod serversettings for start order: ca, @originsmod, @dayz_epoch, @dayz_epoch_server
+6. Copy the Bikey-Key "OriginsMod.info_by_Hades_1.8.3.bikey" into your server key folder.
+
+7. Mod serversettings for start order: ca, @originsmod, @dayz_epoch, @dayz_epoch_server
 
 ## infiStar
 
