@@ -74,4 +74,22 @@ if (true) then
   _this setPos [11798.813, 14919.877, 3.0517578e-005];
 };
 
+_vehicle_8 = objNull;
+if (true) then
+{
+  _this = createVehicle ["US_WarfareBVehicleServicePoint_Base_EP1", [4499.666, 14521.933, 1.5258789e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_0 = _this;
+  _this setDir 180.66388;
+  _this setPos [4499.666, 14521.933, 1.5258789e-005];
+};
+
+_vehicle_9 = objNull;
+if (true) then
+{
+  _this = createVehicle ["US_WarfareBVehicleServicePoint_Base_EP1", [5721.5127, 15855.249, 1.1444092e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_1 = _this;
+  _this setDir -22.416382;
+  _this setPos [5721.5127, 15855.249, 1.1444092e-005];
+};
+
 };

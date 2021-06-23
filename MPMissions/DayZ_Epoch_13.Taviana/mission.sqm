@@ -196,7 +196,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=47;
+		items=50;
 		class Item0
 		{
 			position[]={10732,0,12687};
@@ -548,6 +548,7 @@ class Mission
 			type="mil_circle";
 			colorName="ColorBlack";
 		};
+		
 		class Item46
 		{
 			position[]={8469.99,0,20027.8};
@@ -556,6 +557,29 @@ class Mission
 			type="mil_dot";
 			colorName="ColorGreen";
 		};
+		class Item47
+		{
+			position[]={17466.3,0,7623.94};
+			name="Doctor";
+			text="Doctor";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item48
+		{
+			position[]={4499.666, 1.5258789e-005, 14521.933};
+			name="fuel8";
+			text=" Fuel and Repair";
+			type="mil_circle";
+			colorName="ColorGreen";
+		};
+		class Item49
+		{
+			position[]={5721.5127, 1.1444092e-005, 15855.249};
+			name="fuel9";
+			text=" Fuel and Repair";
+			type="mil_circle";
+			colorName="ColorGreen";
 	};
 	class Sensors
 	{
