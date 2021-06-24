@@ -580,6 +580,7 @@ class Mission
 			text=" Fuel and Repair";
 			type="mil_circle";
 			colorName="ColorGreen";
+		}	
 	};
 	class Sensors
 	{
