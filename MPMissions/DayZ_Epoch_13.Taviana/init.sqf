@@ -32,7 +32,8 @@ DZE_PlayerZed = true; // Enable spawning as a player zombie when players die wit
 
 enableRadio false;
 enableSentences false;
-//setTerrainGrid 25;
+//setTerrainGrid 50;
+//setViewDistance 3000; 
 
 diag_log 'dayz_preloadFinished reset';
 dayz_preloadFinished=nil;
