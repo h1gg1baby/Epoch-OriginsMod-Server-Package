@@ -82,7 +82,7 @@ if (!isDedicated) then {
 
 	vg_list = ["Plastic_Pole_EP1_DZ"]; // List of objects/traders that are allowed to interact with virtual garage. i.e: ["Plastic_Pole_EP1_DZ","Worker2"];
 	vg_blackListed = []; // Array of vehicle config classes as well as vehicle classnames that are blacklisted from being stored, i.e ["All","Land","Air","Ship","StaticWeapon","AH1Z","MTVR"]
-	vg_heliPads = ["Helipad_Civil_DZ","Helipad_Rescue_DZ","Helipad_Army_DZ","Helipad_Cross_DZ","Helipad_ParkBorder_DZ"]; // Array of heli pad classnames
+	vg_heliPads = ["Helipad_Civil_DZ","Helipad_Rescue_DZ","Helipad_Army_DZ","Helipad_Cross_DZ","Helipad_ParkBorder_DZ","HeliH","HeliHCivil","MAP_Heli_H_army","HeliHRescue","MAP_Heli_H_cross","Sr_border"]; // Array of heli pad classnames
 	vg_removeKey = true; // Remove the key from the players inventory after storing vehicle?
 	vg_requireKey = true; // Require the player to have the key when storing a locked vehicle.
 	vg_storeWithGear = true; // Allow storing vehicles with gear?
