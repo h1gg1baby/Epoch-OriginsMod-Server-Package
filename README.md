@@ -164,4 +164,4 @@ seppo{at}posteo.de | No support for used mods! Send your Server-IP. I will visit
 
 ## Licences
 
-Note the respective licenses of the files from the other GitHub Repositories. Thx to at all publishers!
+Note the respective licenses of the files from the other GitHub Repositories. Thx to at all publishers and [EpochModTeam](https://github.com/EpochModTeam/DayZ-Epoch)
