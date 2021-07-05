@@ -98,7 +98,7 @@ dayz_antihack = 0;
 
 You have a Problem at spawning with HALO? Clients spawn left down the map into water?
 
-Then use the following fix. Credits to Cherdenko for fixing that bug [klick me!](https://epochmod.com/forum/topic/43012-release-essv3-enhanced-spawn-selection-updated-for-107/?do=findComment&comment=288727)
+Then use the following fix. Credits to Cherdenko for fixing that bug | [klick me!](https://epochmod.com/forum/topic/43012-release-essv3-enhanced-spawn-selection-updated-for-107/?do=findComment&comment=288727)
 
 Look at your AH.sqf in your dayz_server.pbo (infiSTAR folder). Open that file and seach for:
 
