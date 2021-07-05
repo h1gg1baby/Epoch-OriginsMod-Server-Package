@@ -94,6 +94,54 @@ like this:
 dayz_antihack = 0;
 ```
 
+## You use ESSV3 & InfiStar?
+
+You have a Problem at spawning with HALO? Clients spawn left down the map into water?
+
+Then use the following fix. Credits to Cherdenko for fixing that bug [klick me!](https://epochmod.com/forum/topic/43012-release-essv3-enhanced-spawn-selection-updated-for-107/?do=findComment&comment=288727)
+
+Look at your AH.sqf in your dayz_server.pbo (infiSTAR folder). Open that file and seach for:
+
+```
+					_driver = driver _curVeh;
+						_aidriver = false;
+						if(!isNull _driver)then
+						{
+							if(!isPlayer _driver)then
+							{
+								_aidriver = true;
+								
+								player setVectorUp [0,0,1];
+								player setVelocity [0,0,0];
+								player setPosATL _lastPos;
+							};
+						};
+						if(_aidriver)exitWith{hint 'Bad boys, bad boys whatcha gonna do? Whatcha gonna do when they come for you?';systemchat 'AI Drivers not allowed!';}; 
+```
+
+Delete ist or comment out like:
+
+```
+/*
+					_driver = driver _curVeh;
+						_aidriver = false;
+						if(!isNull _driver)then
+						{
+							if(!isPlayer _driver)then
+							{
+								_aidriver = true;
+								
+								player setVectorUp [0,0,1];
+								player setVelocity [0,0,0];
+								player setPosATL _lastPos;
+							};
+						};
+						if(_aidriver)exitWith{hint 'Bad boys, bad boys whatcha gonna do? Whatcha gonna do when they come for you?';systemchat 'AI Drivers not allowed!';};
+*/
+```
+
+
+
 ## Extra/optional: 
 
 You don`t want to use any launcher? Then use "Start - Oripoch.bat". Set your own Arma2-path and set your IP with server-port. Dubbleklick to start.
