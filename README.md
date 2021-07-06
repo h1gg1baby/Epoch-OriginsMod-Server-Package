@@ -119,26 +119,7 @@ Look at your AH.sqf in your dayz_server.pbo (infiSTAR folder). Open that file an
 						if(_aidriver)exitWith{hint 'Bad boys, bad boys whatcha gonna do? Whatcha gonna do when they come for you?';systemchat 'AI Drivers not allowed!';}; 
 ```
 
-Delete it or comment out like:
-
-```
-/*
-					_driver = driver _curVeh;
-						_aidriver = false;
-						if(!isNull _driver)then
-						{
-							if(!isPlayer _driver)then
-							{
-								_aidriver = true;
-								
-								player setVectorUp [0,0,1];
-								player setVelocity [0,0,0];
-								player setPosATL _lastPos;
-							};
-						};
-						if(_aidriver)exitWith{hint 'Bad boys, bad boys whatcha gonna do? Whatcha gonna do when they come for you?';systemchat 'AI Drivers not allowed!';};
-*/
-```
+Delete it!
 
 
 
