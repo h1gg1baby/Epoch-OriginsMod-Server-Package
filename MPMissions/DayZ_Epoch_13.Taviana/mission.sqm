@@ -7,6 +7,7 @@ class Mission
 		"aif_arma1buildings",
 		"mbg_african_buildings",
 		"mbg_killhouses",
+		"mbg_buildings_3",
 	    "ca_modules_animals",
 		"dayz_anim",
 		"dayz_code",
@@ -35,6 +36,7 @@ class Mission
 		"mbg_african_buildings",
 		"aif_arma1buildings",
 		"mbg_killhouses",
+		"mbg_buildings_3",
 		"ori_submarine","ori_flying_fortress","ori_pragacopter","origins_pack_cars","ori_scraptank","ori_bigraft","ori_smallraft","ori_titanic","ori_scrapbuggy",
 		"ori_dc3","sla_weapons","taviana_castle","rh_de_cfg","ori_taviana","cadata","camisc3","CAWheeled","camisc_e","CABuildings","CAWheeled_E","CAMisc","caair","castructures_rail","osshdy","dayz",
 		"CAWheeled_E_Old_moto","cawheeled_e_v3s","cawheeled_e_volha","CAWheeled3_M1030","cawheeled_e_s1203","CAWheeled2_Ikarus","casounds","rth_small_tent"/*,"ori_data"*/
