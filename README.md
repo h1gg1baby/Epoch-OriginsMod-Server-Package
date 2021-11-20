@@ -125,7 +125,7 @@ Delete it!
 
 ## Extra/optional: 
 
-You don`t want to use any launcher? Then use "Start - Oripoch.bat". Set your own Arma2-path and set your IP with server-port. Dubbleklick to start.
+You don`t want to use any launcher? Then use "Start - Oripoch.bat". Set your own Arma2-path and set your IP with server-port. Double click to start.
 
 Serverstart with "Steamlink":
 
