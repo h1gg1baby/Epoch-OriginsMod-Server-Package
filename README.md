@@ -6,7 +6,7 @@
 
 [Epoch 1.0.7.1](https://github.com/h1gg1baby/Epoch-OriginsMod-Server-Package-2.0)
 
-# Go for it! But it it`s old!
+# Go for it! But it`s old!
 
 No Credit for me. Here, you see the list, you must send Credit to.
 
