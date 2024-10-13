@@ -2,6 +2,10 @@
 
 ## Epoch 1.0.7 & Origins Mod 1.8.3 (Taviana 3.0)
 
+## _new_
+
+[Epoch 1.0.7.1](https://github.com/h1gg1baby/Epoch-OriginsMod-Server-Package-2.0)
+
 No Credit for me. Here, you see the list, you must send Credit to.
 
 Special Credit to MigSDev5 for inspirations. [GitHub repo](https://github.com/MigSDev5/Epoch_origins_pack)
