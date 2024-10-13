@@ -6,6 +6,8 @@
 
 [Epoch 1.0.7.1](https://github.com/h1gg1baby/Epoch-OriginsMod-Server-Package-2.0)
 
+# Go for it! But it it`s old!
+
 No Credit for me. Here, you see the list, you must send Credit to.
 
 Special Credit to MigSDev5 for inspirations. [GitHub repo](https://github.com/MigSDev5/Epoch_origins_pack)
