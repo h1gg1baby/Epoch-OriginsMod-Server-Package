@@ -4,7 +4,7 @@
 
 ## _new_
 
-[Epoch 1.0.7.1](https://github.com/h1gg1baby/Epoch-OriginsMod-Server-Package-2.0)
+[Epoch-OriginsMod-Server-Package - Version 2.0](https://github.com/h1gg1baby/Epoch-OriginsMod-Server-Package-2.0)
 
 # Go for it! But it`s old!
 
