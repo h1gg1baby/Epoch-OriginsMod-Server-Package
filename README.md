@@ -147,7 +147,7 @@ steam://run/33930//-connect=99.999.999.99%20-port=2302%20-PASSWORD=password%20-m
 
 ## Contact
 
-seppo{at}posteo.de | No support for used mods! Send your Server-IP. I will visit you! ;-)
+epoch{at}posteo.de | No support for used mods! Send your Server-IP. I will visit you! ;-)
 
 ## Licences
 
